@@ -1,5 +1,6 @@
 import { combineReducers } from "redux";
+import postsReducer from "./postsReducer";
 
 export default combineReducers({
-    replaceMe: () => 'Replace me' // dummy reducer to clear error warning - needs to be replaced
+     posts: postsReducer
 });
